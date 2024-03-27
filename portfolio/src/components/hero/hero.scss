@@ -5,10 +5,62 @@
     position: relative;
 
 
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .text-container {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            h2 {
+                font-size: 30px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+            }
+
+            h1 {
+                font-size: 88px;
+            }
+
+            .buttons {
+                button {
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: white;
+                    margin-right: 20px;
+                    font-weight: 300px;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+    
     .image-container {
         height: 100%;
         position: absolute;
         top: 0;
-        right: 50px;
+        right: 0;
+    }
+
+    .sliding-text-container {
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
     }
 }
