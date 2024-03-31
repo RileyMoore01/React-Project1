@@ -1,0 +1,13 @@
+https://github.com/safak/animated-portfolio 
+
+INSTALL
+1.) 
+
+
+React.js
+Sass 
+Animations - Framer Motion
+
+
+TO-DO:
+1.) Get new hero picture - Timestamp (55:11)
