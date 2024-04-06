@@ -6,8 +6,8 @@ const Links = () => {
         "Homepage",
         "Services",
         "Portfolio",
-        "Contact Me",
-        "About Me"
+        "Contact",
+        // "About Me"
     ]
 
     const variants = {

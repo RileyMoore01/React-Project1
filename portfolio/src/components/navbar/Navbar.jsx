@@ -13,7 +13,7 @@ const Navbar = () => {
                     animate={{opacity: 1, scale: 1}}
                     transition={{duration: 0.5}}
                 >
-                    Moore Devs
+                    {/* Moore Devs */}
                 </motion.span>
                 <div className="social">
                     <a href="#"><img src="/facebook.png"></img></a>
