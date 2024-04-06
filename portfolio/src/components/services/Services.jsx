@@ -60,12 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Saas</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            We are here for all of your cutting-edge software needs. Ranging from Web/IOS Development to hardware components and design.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web/IOS Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Create your personalized modern design to allow you to stay connected with your engaged customers and clients. Not caught up with the trends? No worries, we will brief you with all the cutting-edge technology.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Software/Technical Issues</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Having issues with your computer or PC? Lets set up a consulation call to get all of this resolved. Not to mention we do code reviews if you are not 100% sure of your third-party developer.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +90,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Consultation</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Let us know if there is something listed that you want done related to web developement, ios development, or general technical issues.
           </p>
           <button>Go</button>
         </motion.div>
