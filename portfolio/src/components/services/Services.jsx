@@ -64,7 +64,7 @@ const Services = () => {
           <p>
             We are here for all of your cutting-edge software needs. Ranging from Web/IOS Development to hardware components and design.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -74,7 +74,7 @@ const Services = () => {
           <p>
             Create your personalized modern design to allow you to stay connected with your engaged customers and clients. Not caught up with the trends? No worries, we will brief you with all the cutting-edge technology.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -84,7 +84,7 @@ const Services = () => {
           <p>
             Having issues with your computer or PC? Lets set up a consulation call to get all of this resolved. Not to mention we do code reviews if you are not 100% sure of your third-party developer.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -94,7 +94,7 @@ const Services = () => {
           <p>
             Let us know if there is something listed that you want done related to web developement, ios development, or general technical issues.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
       </motion.div>
     </motion.div>
