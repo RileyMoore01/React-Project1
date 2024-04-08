@@ -6,19 +6,19 @@ const items = [
     {
         id: 1,
         title: "SaaS",
-        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        img: "./code.jpeg",
         desc: "We are here for all of your cutting-edge software needs. Ranging from Web/IOS Development to hardware components and design.",
     },
     {
         id: 2,
         title: "Web Developement",
-        img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        desc: "Create your personalized design to allow you to stay connected with your customers and clients.",
+        img: "./web-dev.webp",
+        desc: "Create your personalized design to allow you to stay connected with your customers and clients. Also adding SEO optimization to make your website easy to find.",
     },
     {
         id: 3,
         title: "Software Issues",
-        img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        img: "./security.png",
         desc: "Having issues with your computer or PC? Lets set up a consulation call to get all of this resolved. Not to mention we do code reviews if you are not 100% sure of your third-party developer.",
     },
     {

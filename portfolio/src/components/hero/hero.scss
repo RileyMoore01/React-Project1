@@ -67,11 +67,12 @@
     right: 0;
 
     @include mobile {
-      height: 50%;
+      height: 80%;
       width: 100%;
       top: unset;
-      bottom: 0;
-    }
+      bottom: -100px;
+      right: -30px;
+  }
 
     img{
       width: 100%;

@@ -75,7 +75,7 @@ const Hero = () => {
         Software Investments Buisuness Owner
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/hero-grad.png" alt="" />
       </div>
     </div>
   );
