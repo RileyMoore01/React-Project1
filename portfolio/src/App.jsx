@@ -7,6 +7,7 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 // import Test from "./Test";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return <div>
@@ -19,7 +20,12 @@ const App = () => {
     <section><Services/></section>
     <section id="Portfolio"><Parallax type="portfolio"/></section>
     <Portfolio />
-    <section id="Contact"><Contact/></section>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+    {/* <section id="Contact"><Contact/></section> */}
     {/* <Test/> */}
   </div>;
 };

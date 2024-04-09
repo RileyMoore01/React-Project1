@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const textVariants = {
   initial: {
@@ -38,6 +39,12 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+  // const navigate = useNavigate();
+
+  const goToAbout = () => {
+    // navigate('/contact'); // Navigate to the About component
+  };
+
   return (
     <div className="hero">
       <div className="wrapper">
@@ -55,7 +62,10 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <button onClick={goToAbout}>Contact Me</button>
+            {/* <motion.button variants={textVariants}>
+              Contact Me
+            </motion.button> */}
           </motion.div>
           <motion.img
             variants={textVariants}
