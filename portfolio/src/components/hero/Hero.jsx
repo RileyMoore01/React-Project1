@@ -1,4 +1,3 @@
-import './hero.scss'
 import "./hero.scss";
 import { motion } from "framer-motion";
 
@@ -72,7 +71,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Software Investments Buisuness Owner
+        Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
         <img src="/hero-grad.png" alt="" />
