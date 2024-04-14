@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-    {/* <section id="Contact"><Contact/></section> */}
+    <section id="Contact"><Contact/></section>
     {/* <Test/> */}
   </div>;
 };
