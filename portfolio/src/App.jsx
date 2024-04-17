@@ -7,27 +7,29 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 // import Test from "./Test";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
-  return <div>
-    <Cursor />
-    <section id="Homepage">
-      <Navbar/>
-      <Hero/>
-    </section>
-    <section id="Services"><Parallax type="services"/></section>
-    <section><Services/></section>
-    <section id="Portfolio"><Parallax type="portfolio"/></section>
-    <Portfolio />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
-    <section id="Contact"><Contact/></section>
-    {/* <Test/> */}
-  </div>;
+  return (
+    <div>
+      <Cursor />
+      <section id="Homepage">
+        <Navbar/>
+        <Hero/>
+      </section>
+      <section id="Services"><Parallax type="services"/></section>
+      <section><Services/></section>
+      <section id="Portfolio"><Parallax type="portfolio"/></section>
+      <Portfolio />
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter> */}
+      <section id="Contact"><Contact/></section>
+      {/* <Test/> */}
+    </div>
+  );
 };
 
 export default App;

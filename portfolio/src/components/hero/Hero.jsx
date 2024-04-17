@@ -1,6 +1,8 @@
 import "./hero.scss";
+import React, { useRef } from 'react';
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import Contact from "../contact/Contact";
+// import { useNavigate } from "react-router-dom";
 
 const textVariants = {
   initial: {
@@ -39,10 +41,20 @@ const sliderVariants = {
 };
 
 const Hero = () => {
-  // const navigate = useNavigate();
+  const targetRef = useRef('#Contact');
 
-  const goToAbout = () => {
-    // navigate('/contact'); // Navigate to the About component
+  // const scrollToSection = () => {
+  //   targetRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // };
+
+  const scrollToSection = () => {
+    if (targetRef.current) {
+      const topPos = targetRef.current.offsetTop * 15 - 6; // Adjust 60 to the height of your header or any other offset
+      window.scrollTo({
+        top: topPos,
+        behavior: 'smooth'
+      });
+    }
   };
 
   return (
@@ -62,7 +74,13 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <button className='contact-button' onClick={goToAbout}>Contact Me</button>
+            {/* <motion.button variants={textVariants} className='contact-button' onClick={scrollToSection}>Contact Me</motion.button> */}
+            <div>
+              <button className='contact-button' onClick={scrollToSection}>Contact Me</button>
+              <div ref={targetRef}></div>
+              {/* <div style={{ height: '150px' }}>Scroll down</div> */}
+            </div>
+            {/* <button className='contact-button' onClick={goToAbout}>Contact Me</button> */}
             {/* <motion.button variants={textVariants}>
               Contact Me
             </motion.button> */}
