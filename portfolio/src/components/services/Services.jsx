@@ -50,9 +50,9 @@ const Services = () => {
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Soultions.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,9 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Saas</h2>
+          <h2>Asp .Net Core</h2>
           <p>
-            We are here for all of your cutting-edge software needs. Ranging from Web/IOS Development to hardware components and design.
+            I have worked profficently over 2 years in a business setting using Asp.Net and Asp.Net Core. Mostly using .Net Core
           </p>
           <button>Go</button>
         </motion.div>
@@ -70,9 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web/IOS Development</h2>
+          <h2>Web Development</h2>
           <p>
-            Create your personalized modern design to allow you to stay connected with your engaged customers and clients. Not caught up with the trends? No worries, we will brief you with all the cutting-edge technology.
+            I am profficent in HTML5, CSS3, and JS. As for frameworks I am working in React.js / Remix.
           </p>
           <button>Go</button>
         </motion.div>
@@ -80,9 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Software/Technical Issues</h2>
+          <h2>Raspberry Pi</h2>
           <p>
-            Having issues with your computer or PC? Lets set up a consulation call to get all of this resolved. Not to mention we do code reviews if you are not 100% sure of your third-party developer.
+            I have done everything with a raspberry pi from creating my own server to linking all types of mechnical gadets in a circuit. See later pages for more detail.
           </p>
           <button>Go</button>
         </motion.div>
