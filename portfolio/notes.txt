@@ -10,4 +10,5 @@ Animations - Framer Motion
 
 
 TO-DO:
-1.) Get new hero picture - Timestamp (55:11)
+1.) Fill out resume portion
+2.) Create new pages to display projects
