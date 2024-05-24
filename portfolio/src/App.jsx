@@ -6,6 +6,8 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+
+// Introduce routing for the future features and components
 // import Test from "./Test";
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +23,8 @@ const App = () => {
       <section><Services/></section>
       <section id="Portfolio"><Parallax type="portfolio"/></section>
       <Portfolio />
+
+      {/* Routing will be located here with react-routing*/}
       {/* <BrowserRouter>
         <Routes>
           <Route path="/contact" element={<Contact />} />
